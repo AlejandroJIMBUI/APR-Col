@@ -2,11 +2,13 @@ import pickle
 from PyQt6.QtWidgets import (
     QMainWindow, QVBoxLayout, QWidget, QLabel, QLineEdit, 
     QPushButton, QComboBox, QSlider, QTextEdit, QHBoxLayout, 
-    QFileDialog, QFrame, QSizePolicy
+    QFileDialog
 )
 from PyQt6.QtCore import Qt
-from PyQt6.QtGui import QDoubleValidator, QIntValidator, QPixmap, QIcon
+from PyQt6.QtGui import QDoubleValidator, QIntValidator, QIcon
 import os
+
+from utils.helpers import resource_path
 
 
 class PredictionApp(QMainWindow):
@@ -18,7 +20,7 @@ class PredictionApp(QMainWindow):
         self.setGeometry(100, 100, 500, 300)  # Tamaño ajustado
         
         # Establecer icono de la ventana
-        self.setWindowIcon(QIcon("resources/logo.ico"))  # Asegúrate de tener este archivo
+        self.setWindowIcon(QIcon(resource_path("resources/logo.ico")))  # Asegúrate de tener este archivo
         
         # Establecer estilo general mejorado
         self.setStyleSheet("""

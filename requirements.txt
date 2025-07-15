@@ -1,0 +1,11 @@
+# requirements.txt
+scikit-learn==1.3.2          # sklearn
+xgboost==2.0.3               # xgboost
+PyQt6==6.6.1                 # pyqt6
+numpy==1.26.4                # numpy
+
+# Dependencias adicionales necesarias
+PyQt6-Qt6==6.6.0             # Binarios de Qt6
+PyQt6-sip==13.6.0            # Bindings SIP
+scipy==1.11.4                # Requerido por sklearn
+threadpoolctl>=3.1.0         # Requerido por sklearn

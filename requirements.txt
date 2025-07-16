@@ -4,6 +4,7 @@ xgboost==2.0.3               # xgboost
 PyQt6==6.6.1                 # pyqt6
 numpy==1.26.4                # numpy
 pandas==2.3.1                # pandas
+ategory_encoders==2.8.1      # category_encoders
 
 # Dependencias adicionales necesarias
 PyQt6-Qt6==6.6.0             # Binarios de Qt6

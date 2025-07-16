@@ -14,3 +14,8 @@ def resource_path(relative_path):
     """
     base_path = getattr(sys, '_MEIPASS', Path(__file__).parent.parent)  # Handle PyInstaller's temporary folder
     return str(Path(base_path) / relative_path)
+
+"""
+This code is written by: Alejandro Jiménez    
+Contact: alejandro.jj0077@gmail.com
+"""

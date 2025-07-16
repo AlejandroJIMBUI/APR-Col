@@ -16,3 +16,8 @@ if __name__ == "__main__":
     window.show()
     
     sys.exit(app.exec())
+    
+"""
+This code is written by: Alejandro Jiménez    
+Contact: alejandro.jj0077@gmail.com
+"""

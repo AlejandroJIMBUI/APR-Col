@@ -239,3 +239,8 @@ class PredictionApp(QMainWindow):
             self.salida.setText(f"✗ Error: Valores numéricos inválidos\n{str(e)}")
         except Exception as e:
             self.salida.setText(f"✗ Error inesperado:\n{str(e)}")
+            
+"""
+This code is written by: Alejandro Jiménez    
+Contact: alejandro.jj0077@gmail.com
+"""

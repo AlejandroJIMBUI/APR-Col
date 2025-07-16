@@ -56,3 +56,8 @@ class ModelManager:
         entrada = list(datos_escalados) + [ano, mes, nombreestacion, departamento, municipio, zonahidrografica]
 
         return self.current_model.predict([entrada])[0]
+    
+"""
+This code is written by: Alejandro Jiménez    
+Contact: alejandro.jj0077@gmail.com
+"""
